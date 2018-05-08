@@ -10,29 +10,29 @@ import { AboutMe } from '../pages/about-me/about-me';
 import { PopoverPage } from '../pages/msg-list/popover-page';
 
 @NgModule({
-  declarations: [
-    WeChatApp,
-    MsgList,
-    Contacts,
-    Discover,
-    AboutMe,
-    PopoverPage
-  ],
-  imports: [
-    BrowserModule,
-    IonicModule.forRoot(WeChatApp),
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    WeChatApp,
-    MsgList,
-    Contacts,
-    Discover,
-    AboutMe,
-    PopoverPage
-  ],
-  providers: [
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
-  ]
+    declarations: [
+        WeChatApp,
+        MsgList,
+        Contacts,
+        Discover,
+        AboutMe,
+        PopoverPage
+    ],
+    imports: [
+        BrowserModule,
+        IonicModule.forRoot(WeChatApp),
+    ],
+    bootstrap: [IonicApp],
+    entryComponents: [
+        WeChatApp,
+        MsgList,
+        Contacts,
+        Discover,
+        AboutMe,
+        PopoverPage
+    ],
+    providers: [
+        { provide: ErrorHandler, useClass: IonicErrorHandler }
+    ]
 })
-export class AppModule {}
+export class AppModule { }
