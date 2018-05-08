@@ -1,6 +1,7 @@
 {
-  "name": "ionic-one",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+    "name": "ionic-one",
+    "app_id": "",
+    "type": "ionic-angular",
+    "integrations": {}
 }
+
